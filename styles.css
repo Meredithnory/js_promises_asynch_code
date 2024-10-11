@@ -1,0 +1,40 @@
+body {
+    animation: disco 50s infinite;
+    display: flex;
+    flex-direction: column;
+
+}
+#card-images{
+    position: relative;
+    height: 500px;
+}
+
+#card-images img{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+@keyframes disco {
+    0% { background-color: rgb(66, 132, 255); }
+    25% { background-color: rgb(255, 255, 103); }
+    50% { background-color: rgb(251, 170, 255); }
+    75% { background-color: rgb(185, 252, 185); }
+    100% { background-color: rgb(255, 0, 255); }
+}
+
+h1 {
+    text-align: center;
+}
+
+#my-button {
+    border-radius: 10px;
+    width: fit-content; 
+    margin:auto;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    padding:5px;
+}
